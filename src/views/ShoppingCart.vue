@@ -1,5 +1,6 @@
 <template>
     <div class="shopping">
+    
         <HeaderShayna/>
 
         <!-- Breadcrumb Section Begin -->
@@ -44,13 +45,12 @@
                                                 </td>
                                                 <td class="p-price first-row">{{ keranjang.price }}</td>
                                                 <td @click="removeItem(keranjangUser.index)" class="delete-item"><a href="#"><i class="material-icons">
-                                                close
-                                                </i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
+                            
                             <div class="col-lg-8">
                                 <h4 class="mb-4 text-left">
                                     Informasi Pembeli:
@@ -91,6 +91,7 @@
                                         <li class="subtotal mt-3">No. Rekening <span>2208 1996 1403</span></li>
                                         <li class="subtotal mt-3">Nama Penerima <span>Shayna</span></li>
                                     </ul>
+                                    
                                     <!-- <router-link to="/success"> -->
                                         <a @click="checkout()" href="#" class="proceed-btn">I ALREADY PAID</a>
                                     <!-- </router-link> -->

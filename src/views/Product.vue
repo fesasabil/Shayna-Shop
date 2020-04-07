@@ -52,6 +52,7 @@
                                     <router-link to="/cart">
                                         <a @click="saveKeranjang(productDetails.id, productDetails.name, productDetails.price, productDetails.galleries[0].photo)" href="#" class="primary-btn pd-cart">Add To Cart</a>
                                     </router-link>
+                                    
                                 </div>
                             </div>
                         </div>
